@@ -202,9 +202,6 @@
         font-size: 20px;
         width: 75%;
         font-weight: 500;
-        .resume-container{
-            margin-top: 20px;
-        }
         p{
             b{
                 color: #ff7700;
@@ -213,9 +210,23 @@
             }
         }
     }
+    .resume-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+        p{
+            margin: 0;
+            margin-right: 10px;
+        }
+    }
 }
 #portfolio-container{
     background-color: #2D3047;
+    padding-top: 20px;
     .portfolio-title-container{
         h2{
             color: #ff7700;
